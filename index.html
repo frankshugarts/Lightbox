@@ -25,7 +25,7 @@
                     <div class="col-md-12">
                         <h3>
                             <i class="fa fa-window-restore heading-icon" aria-hidden="true"></i>
-                            Iframes and Inline Element6
+                            Iframes and Inline Element8
                         </h3>
                         <ul class="box-container three-cols">
                                 <div class="inner">
@@ -59,33 +59,7 @@
             var lightboxVideo = GLightbox({
                 selector: '.glightbox3'
             });
-            lightboxVideo.on('slide_changed', ({ prev, current }) => {
-                console.log('Prev slide', prev);
-                console.log('Current slide', current);
 
-                const { slideIndex, slideNode, slideConfig, player } = current;
-
-                if (player) {
-                    if (!player.ready) {
-                        // If player is not ready
-                        player.on('ready', (event) => {
-                            // Do something when video is ready
-                        });
-                    }
-
-                    player.on('play', (event) => {
-                        console.log('Started play');
-                    });
-
-                    player.on('volumechange', (event) => {
-                        console.log('Volume change');
-                    });
-
-                    player.on('ended', (event) => {
-                        console.log('Video ended');
-                    });
-                }
-            });
 
             var lightboxInlineIframe = GLightbox({
                 selector: '.glightbox4'
