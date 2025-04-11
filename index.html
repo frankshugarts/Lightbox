@@ -18,28 +18,76 @@
 
         <title>GLightbox | A touchable pure Javascript lightbox</title>
     </head>
+
     <body>
-        <header class="main-header">
+
+        <!-- Iframes and inline example -->
         <section class="section pair">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <h3>
                             <i class="fa fa-window-restore heading-icon" aria-hidden="true"></i>
+                            Iframes and Inline Elements
+                        </h3>
+                        <p>You can easily add iframes by simply entering the url, it could be a web page, a video, google maps, etc. also you can display any div of your page by entering the ID in the href attribute.</p>
+
+                        <ul class="box-container three-cols">
+                            <li class="box">
+                                <div class="inner">
+                                    <a href="#inline-example" class="glightbox4" data-glightbox="width: 700; height: auto;">
+                                        <img src="demo/img/small/gm14.jpg" alt="image" />
+                                    </a>
+                                </div>
+                            </li>
                             <li class="box">
                                 <div class="inner">
                                     <a
-                                        href="https://www.cisco.com"
+                                        href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12085.977306439116!2d-73.96648875371474!3d40.77314541916876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258bf08488f6b%3A0x618706a9142daa0d!2sUpper+East+Side%2C+Nueva+York%2C+EE.+UU.!5e0!3m2!1ses-419!2smx!4v1511830027642"
                                         class="glightbox4"
                                     >
-                                        Click here
+                                        <img src="demo/img/small/gm15.jpg" alt="image" />
                                     </a>
                                 </div>
+                            </li>
+                            <li class="box">
+                                <div class="inner">
+                                    <a href="./demo/pexels-video-1550080.mp4" class="glightbox4">
+                                        <img src="demo/img/small/gm16.jpg" alt="image" />
+                                    </a>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
+
+
+        <div id="inline-example" style="display: none">
+            <div class="inline-inner">
+                <h4 class="text-center">Example of inline content</h4>
+                <div class="text-center">
+                    <p>
+                        Duis quis ipsum vehicula eros ultrices lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec nec sollicitudin felis. Donec vel nulla vel leo varius
+                        tempor. Duis suscipit pharetra quam id imperdiet. Praesent vitae eros metus. Donec placerat sagittis rhoncus. In condimentum eleifend ante et ornare. Curabitur pharetra nibh non purus gravida.
+                    </p>
+                </div>
+
+                <a class="gtrigger-close inline-close-btn" href="#">Close Box</a>
+            </div>
+        </div>
+
+        <footer class="text-center">
+            <div class="wrap copyright">
+                made with love by
+                <a href="https://www.biati.digital" target="_blank">biati digital</a>
+                | photos by
+                <a href="http://unsplash.com" target="_blank">unsplash.com</a>
+                | video by
+                <a href="https://www.pexels.com/video/a-rocky-coast-1550080/" target="_blank">pexels</a>
+            </div>
+        </footer>
         <script src="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js"></script>
         <script src="demo/js/valde.min.js"></script>
         <script src="dist/js/glightbox.js"></script>
