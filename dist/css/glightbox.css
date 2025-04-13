@@ -125,7 +125,7 @@
 .gslide iframe,
     .gslide video {
   outline: none !important;
-  border: none;
+  border: 3;
   min-height: 165px;
   -webkit-overflow-scrolling: touch;
   -ms-touch-action: auto;
