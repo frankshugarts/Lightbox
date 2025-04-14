@@ -260,9 +260,9 @@
   display: flex;
   width: 100%;
   min-width: 100%;
-  border: 6px solid orange;
+  border: 16px solid orange;
   background: #fff;
-  padding: 5;
+  padding: 15;
   overflow: auto;
   max-height: 75vh;
   height: 100%;
