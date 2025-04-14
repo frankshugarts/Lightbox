@@ -2042,7 +2042,7 @@
     startAt: null,
     autoplayVideos: true,
     autofocusVideos: true,
-    descPosition: 'bottom',
+    descPosition: 'top',
     width: '900px',
     height: '506px',
     videosWidth: '960px',
