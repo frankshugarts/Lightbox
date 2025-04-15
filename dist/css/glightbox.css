@@ -258,8 +258,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  min-width: 100%;
+  width: 98%;
+  min-width: 98%;
   border: 6px solid Gray;
   background: #fff;
   padding: 5;
