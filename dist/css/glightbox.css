@@ -260,7 +260,9 @@
   display: flex;
   width: 100%;
   min-width: 100%;
-  border: 6px yellow;
+  border: 2px solid #fff;
+  border-right-color: transparent;
+  border-radius: 50%;
   background: #fff;
   padding: 5;
   overflow: auto;
